@@ -1,0 +1,108 @@
+Navbar.css
+/* .navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+}
+
+.navbar-brand {
+    float: left;
+} */
+
+/*
+.custom-navbar {
+    background-color: #333;
+    position: fixed; /* Fixes the navbar at the top 
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width 
+    z-index: 1000; /* Ensure it's on top of other content 
+    padding: 0.5rem 1rem; /* Adjust padding as needed 
+}
+
+.custom-navbar .navbar-brand {
+    color: #fff; /* White text color 
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-brand a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+.navbar-nav li {
+    float: left;
+}
+
+.navbar-nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar-nav a:hover {
+    background-color: #575757;
+}
+*/
+/* Navbar.css */
+.navbar {
+    background-color: #333;
+    position: fixed; /* Fixes the navbar at the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays on top of other content */
+    display: flex;
+    justify-content: space-between; /* Space between brand and nav items */
+    align-items: center;
+    padding: 0.5rem 1rem; /* Padding around the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-brand a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 1rem; /* Space between nav items */
+}
+
+.nav-item a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem; /* Padding around the links */
+    display: block;
+}
+
+.nav-item a:hover {
+    background-color: #575757; /* Background color on hover */
+    border-radius: 4px; /* Optional: Rounded corners for hover effect */
+}

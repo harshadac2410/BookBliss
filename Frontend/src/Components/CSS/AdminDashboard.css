@@ -1,0 +1,118 @@
+.admin-dashboard-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.logout-button {
+  background-color: #dc3545; /* Bootstrap's danger color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #c82333; /* Darker shade for hover effect */
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.book-id-section {
+  margin-bottom: 20px;
+}
+
+.book-id-form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-id-form .form-group {
+  margin-bottom: 15px;
+}
+
+.book-id-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.book-id-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  background-color: #007bff; /* Bootstrap's primary color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.book-details {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.book-details h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.book-details p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.book-details p strong {
+  color: #333;
+}
+
+.error-message {
+  color: #dc3545; /* Error color */
+}
